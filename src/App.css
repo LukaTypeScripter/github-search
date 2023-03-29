@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+
+:root {
+--weight-700:700;
+--weight-400:400;
+--white-color:#ffff;
+--kashmir-blue:#4B6A9B;
+--gunmetal-color:#2B3442;
+--DeepSky-blue:#0079FF;
+--zirkon-color:#F6F8FF;
+--mirage-color:#141D2F;
+--blueZodiac-color:#1E2A47;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Mono', monospace;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--zirkon-color);
+  height: 100vh;
+  width: 100vw;
+}
+.header-comp {
+  display: flex;
+  column-gap: 113px;
+}
+.theme-switch   {
+  display: flex;
+  column-gap: 18.72px;
+  margin-top: 40px;
+}
+h1 {
+  margin-top: 31px;
+  margin-left: 24px;
+}
+.search-bar {
+  height: 60px;
+  width: 327px;
+  border-radius: 15px;
+  background-color: var(--white-color);
+  margin-top: 35px;
+  margin-left: 24px;
+}
+.search-in {
+  display: flex;
+ justify-content: center;
+ position: relative;
+ top: 18px;
+}
+.btn {
+  background: var(--DeepSky-blue);
+  border-radius: 10px;
+  height: 46px;
+  width: 84px;
+  color: var(--white-color);
+  position: relative;
+  bottom: 8px;
+  left: 7px;
+}
+#search-svg {
+  position: relative;
+  right: 11.32px;
+}
+#search {
+  border: none;
+  height: 25px;
+width: 184px;
+
+
+}
+#search::placeholder {
+  font-size: 13px;
+line-height: 25px;
+font-weight: var(--weight-400);
+}
+.main-cont {
+  background: var(--white-color);
+  margin-top: 16px;
+  margin-left: 24px;
+  width: 327px;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.infos {
+  margin-top: 32px;
+  margin-left: 24px;
+  margin-bottom: 34px;
+  display: flex;
+}
+.name-info {
+  margin-left: 19px;
+}
+#about {
+  margin-left: 24px;
+  font-size: 13px;
+line-height: 25px;
+font-weight: var(--weight-400);
+
+}
+.info-cont {
+  height: 85px;
+width: 279px;
+border-radius: 10px;
+background-color: var(--zirkon-color);
+display: flex;
+justify-content: center;
+column-gap: 14px;
+margin-left: 24px;
+margin-top: 23px;
+margin-bottom: 24px;
+}
+.repos,.followers,.following {
+  margin-top: 18px;
+}
+b {
+  color:var(--gunmetal-color);
+}
+p {
+  color:var(--kashmir-blue);
+}
+#rep,#fol,#fol-ing {
+  font-size: 11px;
+line-height: 16px;
+font-weight: var(--weight-400);
+}
+.location,.url,.social,.platform {
+  display: flex;
+  column-gap: 19.25px;
+  margin-bottom: 17px;
+  margin-left: 24px;
+}
