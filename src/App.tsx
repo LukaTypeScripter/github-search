@@ -9,8 +9,8 @@ import MiddleCont from "./components/MiddleCont";
 import About from "./components/About";
 import PrivetInfo from "./components/PrivetInfo";
 interface UserData {
-  login: string;
-  name: string;
+ login: string;
+ name: string;
  bio: string;
  avatar_url: string;
  repos_url:string
@@ -23,7 +23,7 @@ interface UserData {
  created_at:string
  url:string
  message:string
-blog:string
+ blog:string
 }
 function App() {
   const [userName, setUserName] = useState("");
