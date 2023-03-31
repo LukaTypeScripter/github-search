@@ -1,0 +1,21 @@
+body.dark {
+    background-color: var(--mirage-color);
+}
+.dark h1,.dark h4 {
+    color: var(--white-color);
+}
+.dark p ,.dark b,.dark span{
+    color: var(--white-color);
+}
+.dark .main-cont,.dark .search-bar,.dark #search  {
+    background-color: var(--blueZodiac-color);
+    border: none;
+    color: var(--white-color);
+}
+.dark #search::placeholder {
+    color: var(--white-color);
+    border: none;
+}
+.dark .info-cont {
+    background-color: var(--mirage-color);
+}

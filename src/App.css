@@ -71,8 +71,8 @@ h1 {
   border: none;
   height: 25px;
 width: 184px;
-
-
+position: relative;
+bottom: 10px;
 }
 #search::placeholder {
   font-size: 13px;
@@ -137,3 +137,93 @@ font-weight: var(--weight-400);
   margin-bottom: 17px;
   margin-left: 24px;
 }
+
+button {
+  cursor: pointer;
+  outline: none;
+  background: none;
+  border: none;
+}
+.header-theme-switch-btn {
+  display: flex;
+  column-gap: 10px;
+}
+.inside-info {
+  display: flex;
+  column-gap: 5px;
+}
+#blur {
+  opacity: 0.5;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-bar {
+    height: 69px;
+width: 573px;
+
+
+  }
+  .search-in {
+    justify-content: space-around;
+  }
+.btn {
+  margin-left: 115px;
+}
+  #search {
+    width: 254px;
+   outline: none;
+   position: relative;
+   right: 30px;
+  }
+  #search::placeholder {
+    font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+  }
+  .main-cont {
+    width: 573px;
+  }
+  .info-cont {
+    width: 493px;
+  }
+  .header-comp {
+    justify-content: space-between;
+  }
+  #about {
+    width: 493px;
+    font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+margin-left: 40px;
+  }
+  .inside-info {
+    column-gap: 99px;
+  }
+  span {
+    display: inline;
+  }
+  .privete-infos {
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 40px;
+  }
+ .location {
+  order: 1;
+ }
+ .url {
+  order: 2;
+ }
+ .social {
+  order: 3;
+ }
+ .platform {
+  order: 4;
+ }
+}
+
+
