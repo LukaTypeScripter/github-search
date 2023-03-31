@@ -112,11 +112,13 @@ function App() {
       <main>
         <div className="main-cont">
           <div className="infos">
-            <img src={UserImg} alt="" />
+            <img src={UserImg} alt="" id="avatar" />
             <div className="name-info">
-              <h3>{name}</h3>
+              <h3>octant</h3>
+              <div className="joined">
               <p>@octocat</p>
-              <p>Joined 25 Jan 2011</p>
+              <p id="date">Joined 25 Jan 2011</p>
+              </div>
               
             </div>
             

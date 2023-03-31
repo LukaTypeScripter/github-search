@@ -228,3 +228,72 @@ button {
     order: 4;
   }
 }
+@media only screen and (min-width: 1440px) {
+.search-bar {
+  height: 69px;
+width: 730px;
+
+
+}
+.main-cont {
+  
+  width: 730px;
+}
+h1 {
+  letter-spacing: 2.5px;
+font-size: 26px;
+line-height: 39px;
+}
+h4 {
+ 
+font-size: 13px;
+line-height: 19px;
+}
+
+.info-cont{
+  margin-left: 202px;
+}
+.name-info {
+  margin-left: 110px;
+}
+#about {
+  margin-left: 202px;
+}
+.joined {
+  display: flex;
+  column-gap: 138px;
+}
+h3 {
+  font-size: 26px;
+line-height: 39px;
+}
+#date {
+  position: relative;
+  bottom: 35px;
+}
+.btn {
+  margin-left: 20em;
+}
+#avatar {
+  position: relative;
+  left: 44px;
+}
+.privete-infos {
+  width: 550px;
+  margin-left: 202px;
+}
+.location {
+  order: 4;
+}
+.url {
+  order: 3;
+}
+.social {
+  order: 2;
+  position: relative;
+  left: 7.5em;
+}
+.platform {
+  order: 1;
+}
+}
