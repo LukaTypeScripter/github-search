@@ -1,22 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 
 :root {
---weight-700:700;
---weight-400:400;
---white-color:#ffff;
---kashmir-blue:#4B6A9B;
---gunmetal-color:#2B3442;
---DeepSky-blue:#0079FF;
---zirkon-color:#F6F8FF;
---mirage-color:#141D2F;
---blueZodiac-color:#1E2A47;
+  --weight-700: 700;
+  --weight-400: 400;
+  --white-color: #ffff;
+  --kashmir-blue: #4b6a9b;
+  --gunmetal-color: #2b3442;
+  --DeepSky-blue: #0079ff;
+  --zirkon-color: #f6f8ff;
+  --mirage-color: #141d2f;
+  --blueZodiac-color: #1e2a47;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;
@@ -30,7 +29,7 @@ body {
   display: flex;
   column-gap: 113px;
 }
-.theme-switch   {
+.theme-switch {
   display: flex;
   column-gap: 18.72px;
   margin-top: 40px;
@@ -49,9 +48,9 @@ h1 {
 }
 .search-in {
   display: flex;
- justify-content: center;
- position: relative;
- top: 18px;
+  justify-content: center;
+  position: relative;
+  top: 18px;
 }
 .btn {
   background: var(--DeepSky-blue);
@@ -70,14 +69,14 @@ h1 {
 #search {
   border: none;
   height: 25px;
-width: 184px;
-position: relative;
-bottom: 10px;
+  width: 184px;
+  position: relative;
+  bottom: 10px;
 }
 #search::placeholder {
   font-size: 13px;
-line-height: 25px;
-font-weight: var(--weight-400);
+  line-height: 25px;
+  font-weight: var(--weight-400);
 }
 .main-cont {
   background: var(--white-color);
@@ -85,7 +84,7 @@ font-weight: var(--weight-400);
   margin-left: 24px;
   width: 327px;
   box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
-border-radius: 15px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
 }
@@ -101,37 +100,43 @@ border-radius: 15px;
 #about {
   margin-left: 24px;
   font-size: 13px;
-line-height: 25px;
-font-weight: var(--weight-400);
-
+  line-height: 25px;
+  font-weight: var(--weight-400);
 }
 .info-cont {
   height: 85px;
-width: 279px;
-border-radius: 10px;
-background-color: var(--zirkon-color);
-display: flex;
-justify-content: center;
-column-gap: 14px;
-margin-left: 24px;
-margin-top: 23px;
-margin-bottom: 24px;
+  width: 279px;
+  border-radius: 10px;
+  background-color: var(--zirkon-color);
+  display: flex;
+  justify-content: center;
+  column-gap: 14px;
+  margin-left: 24px;
+  margin-top: 23px;
+  margin-bottom: 24px;
 }
-.repos,.followers,.following {
+.repos,
+.followers,
+.following {
   margin-top: 18px;
 }
 b {
-  color:var(--gunmetal-color);
+  color: var(--gunmetal-color);
 }
 p {
-  color:var(--kashmir-blue);
+  color: var(--kashmir-blue);
 }
-#rep,#fol,#fol-ing {
+#rep,
+#fol,
+#fol-ing {
   font-size: 11px;
-line-height: 16px;
-font-weight: var(--weight-400);
+  line-height: 16px;
+  font-weight: var(--weight-400);
 }
-.location,.url,.social,.platform {
+.location,
+.url,
+.social,
+.platform {
   display: flex;
   column-gap: 19.25px;
   margin-bottom: 17px;
@@ -164,26 +169,24 @@ button {
   }
   .search-bar {
     height: 69px;
-width: 573px;
-
-
+    width: 573px;
   }
   .search-in {
     justify-content: space-around;
   }
-.btn {
-  margin-left: 115px;
-}
+  .btn {
+    margin-left: 115px;
+  }
   #search {
     width: 254px;
-   outline: none;
-   position: relative;
-   right: 30px;
+    outline: none;
+    position: relative;
+    right: 30px;
   }
   #search::placeholder {
     font-weight: 400;
-font-size: 18px;
-line-height: 25px;
+    font-size: 18px;
+    line-height: 25px;
   }
   .main-cont {
     width: 573px;
@@ -197,9 +200,9 @@ line-height: 25px;
   #about {
     width: 493px;
     font-weight: 400;
-font-size: 15px;
-line-height: 25px;
-margin-left: 40px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 40px;
   }
   .inside-info {
     column-gap: 99px;
@@ -208,22 +211,20 @@ margin-left: 40px;
     display: inline;
   }
   .privete-infos {
-   display: flex;
-   flex-wrap: wrap;
-   margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
   }
- .location {
-  order: 1;
- }
- .url {
-  order: 2;
- }
- .social {
-  order: 3;
- }
- .platform {
-  order: 4;
- }
+  .location {
+    order: 1;
+  }
+  .url {
+    order: 2;
+  }
+  .social {
+    order: 3;
+  }
+  .platform {
+    order: 4;
+  }
 }
-
-
